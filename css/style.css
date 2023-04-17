@@ -59,14 +59,14 @@ body {
     align-items: baseline;
     height: 100px;
     border-bottom: solid;
-    border-color: var(--colorStone);
+    border-color: #F2E9EA;
     border-width: 0.5px;
-    font-size: var(--base);
-    background-color: var(--colorGreen);
+    font-size: 1.6rem;
+    background-color: #00383B;
   }
   .logo {
-    color: var(--colorStone);
-    font-size: var(--delta);
+    color: #F2E9EA;
+    font-size: 2.5rem;
     padding-left: 3rem;
   }
   .menu ul {
@@ -79,7 +79,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     border-left: solid;
-    border-color: var(--colorStone);
+    border-color: #00383B;
     border-width: 0.5px;
     height: 100px;
     padding-right: 50px;
@@ -94,17 +94,17 @@ body {
     align-items: baseline;
     height: 100px;
     border-bottom: solid;
-    border-color: var(--colorGreen);
+    border-color: #00383B;
     border-width: 0.5px;
-    font-size: var(--base);
+    font-size: 1.6rem;
   }
   .logoGreen {
-    color: var(--colorGreen);
-    font-size: var(--delta);
+    color: #00383B;
+    font-size: 2.5rem;
     padding-left: 3rem;
   }
   .logoGreen a {
-    color: var(--colorGreen);
+    color: #00383B;
   }
   .menuGreen ul {
     display: flex;
@@ -116,7 +116,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     border-left: solid;
-    border-color: var(--colorGreen);
+    border-color: #00383B;
     border-width: 0.5px;
     height: 100px;
     padding-right: 50px;
@@ -124,7 +124,7 @@ body {
     letter-spacing: 1px;
   }
   .menuGreen a {
-    color: var(--colorGreen);
+    color: #00383B;
   }
 }
 @media (max-width: 768px) {
@@ -136,19 +136,19 @@ body {
     flex-wrap: wrap;
     height: auto;
     border-bottom: solid;
-    border-color: var(--colorStone);
+    border-color: #F2E9EA;
     border-width: 0.5px;
-    font-size: var(--base);
+    font-size: 1.6rem;
   }
   .logo {
-    color: var(--colorStone);
-    font-size: var(--epsilon);
+    color: #F2E9EA;
+    font-size: 2rem;
     padding: 1rem;
     text-align: center;
   }
   .menu {
     border-top: solid;
-    border-color: var(--colorStone);
+    border-color: #F2E9EA;
     border-width: 0.5px;
     width: 100%;
   }
@@ -173,7 +173,7 @@ body {
   .menu li:nth-child(-n+2) {
     border-right: solid;
     border-width: 0.5px;
-    border-color: var(--colorStone);
+    border-color: #F2E9EA;
   }
   /*navGreen*/
   .navGreen {
@@ -183,27 +183,27 @@ body {
     flex-wrap: wrap;
     height: auto;
     border-bottom: solid;
-    border-color: var(--colorGreen);
+    border-color: #00383B;
     border-width: 0.5px;
-    font-size: var(--base);
+    font-size: 1.6rem;
   }
   .logoGreen {
-    color: var(--colorGreen);
-    font-size: var(--epsilon);
+    color: #00383B;
+    font-size: 2rem;
     padding: 1rem;
     text-align: center;
   }
   .logoGreen a {
-    color: var(--colorGreen);
+    color: #00383B;
   }
   .menuGreen {
     border-top: solid;
-    border-color: var(--colorGreen);
+    border-color: #00383B;
     border-width: 0.5px;
     width: 100%;
   }
   .menuGreen a {
-    color: var(--colorGreen);
+    color: #00383B;
   }
   .menuGreen ul {
     display: flex;
@@ -226,7 +226,7 @@ body {
   .menuGreen li:nth-child(-n+2) {
     border-right: solid;
     border-width: 0.5px;
-    border-color: var(--colorGreen);
+    border-color: #00383B;
   }
 }
 

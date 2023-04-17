@@ -9,16 +9,16 @@
         align-items: baseline;
         height: 100px;
         border-bottom: solid;
-        border-color: var(--colorStone);
+        border-color: $colorStone;
         border-width: 0.5px; 
-        font-size: var(--base);
-        background-color: var(--colorGreen);
+        font-size: $base;
+        background-color: $colorGreen;
 
     }
 
     .logo {
-        color: var(--colorStone);
-        font-size: var(--delta);
+        color: $colorStone;
+        font-size: $delta;
         padding-left: 3rem;
     }
 
@@ -33,7 +33,7 @@
         flex-wrap: wrap;
         align-items: center;
         border-left: solid;
-        border-color: var(--colorStone);
+        border-color: $colorGreen;
         border-width: 0.5px; 
         height: 100px;
         padding-right: 50px;
@@ -50,20 +50,20 @@
         align-items: baseline;
         height: 100px;
         border-bottom: solid;
-        border-color: var(--colorGreen);
+        border-color: $colorGreen ;
         border-width: 0.5px; 
-        font-size: var(--base);
+        font-size: $base ;
 
     }
         
     .logoGreen {
-        color: var(--colorGreen);
-        font-size: var(--delta);
+        color: $colorGreen;
+        font-size: $delta;
         padding-left: 3rem;
     }
 
     .logoGreen a {
-        color: var(--colorGreen);
+        color: $colorGreen;
     }
 
     .menuGreen ul{
@@ -77,7 +77,7 @@
         flex-wrap: wrap;
         align-items: center;
         border-left: solid;
-        border-color: var(--colorGreen);
+        border-color: $colorGreen;
         border-width: 0.5px; 
         height: 100px;
         padding-right: 50px;
@@ -86,7 +86,7 @@
 
     }
     .menuGreen a{
-        color: var(--colorGreen);
+        color: $colorGreen;
     }
 
 }
@@ -102,22 +102,22 @@
         flex-wrap: wrap;
         height: auto;
         border-bottom: solid;
-        border-color: var(--colorStone);
+        border-color: $colorStone;
         border-width: 0.5px; 
-        font-size: var(--base);
+        font-size: $base;
 
     }
 
     .logo {
-        color: var(--colorStone);
-        font-size: var(--epsilon);
+        color: $colorStone;
+        font-size: $epsilon;
         padding: 1rem;
         text-align: center;
     }
 
     .menu {
         border-top: solid;
-        border-color: var(--colorStone);
+        border-color: $colorStone;
         border-width: 0.5px; 
         width: 100%;
     }
@@ -143,7 +143,7 @@
 
     }
 
-    .menu li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorStone);
+    .menu li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: $colorStone;
     }
 
     /*navGreen*/
@@ -155,32 +155,32 @@
         flex-wrap: wrap;
         height: auto;
         border-bottom: solid;
-        border-color: var(--colorGreen);
+        border-color: $colorGreen;
         border-width: 0.5px; 
-        font-size: var(--base);
+        font-size: $base;
 
     }
 
     .logoGreen {
-        color: var(--colorGreen);
-        font-size: var(--epsilon);
+        color: $colorGreen;
+        font-size: $epsilon;
         padding: 1rem;
         text-align: center;
     }
 
     .logoGreen a{
-        color: var(--colorGreen);
+        color: $colorGreen;
     }
 
     .menuGreen {
         border-top: solid;
-        border-color: var(--colorGreen);
+        border-color: $colorGreen;
         border-width: 0.5px; 
         width: 100%;
     }
 
     .menuGreen a{
-        color: var(--colorGreen);
+        color: $colorGreen;
     }
 
     .menuGreen ul{
@@ -205,6 +205,6 @@
 
     }
 
-    .menuGreen li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorGreen);
+    .menuGreen li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: $colorGreen;
     }
 }
