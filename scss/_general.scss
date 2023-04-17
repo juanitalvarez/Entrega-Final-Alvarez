@@ -1,0 +1,28 @@
+.bgGreen {background-color: $colorGreen}
+
+.bgPink{background-color: $colorPink}
+
+.bgStone{background-color: $colorStone}
+
+.bgWhite{background-color: $colorWhite}
+
+li {list-style-type: none;}
+
+a{text-decoration: none; color: $colorStone; transition: 1s all;}
+
+a:hover{color: $colorPink;}
+
+html { font-size: 62.5%; }
+
+p, a, h1, h2, h3, h4, h5, h6, input, textarea 
+    {font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;}
+
+body { margin:0px; }
+
+*{margin-bottom: 0;}
+
+.card, .card-header, .card-body, .card-footer{
+    border-radius:0px !important;
+}

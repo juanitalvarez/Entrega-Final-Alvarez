@@ -1,0 +1,210 @@
+@media (min-width:769px) {
+
+
+/*nav light*/
+    .nav {        
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 100px;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        font-size: var(--base);
+        background-color: var(--colorGreen);
+
+    }
+
+    .logo {
+        color: var(--colorStone);
+        font-size: var(--delta);
+        padding-left: 3rem;
+    }
+
+    .menu ul{
+        display: flex;
+        justify-content: flex-end;
+        }
+
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-left: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        height: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        letter-spacing: 1px;
+
+    }
+
+    /*nav dark*/
+    .navGreen {        
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 100px;
+        border-bottom: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        font-size: var(--base);
+
+    }
+        
+    .logoGreen {
+        color: var(--colorGreen);
+        font-size: var(--delta);
+        padding-left: 3rem;
+    }
+
+    .logoGreen a {
+        color: var(--colorGreen);
+    }
+
+    .menuGreen ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menuGreen li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-left: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        height: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        letter-spacing: 1px;
+
+    }
+    .menuGreen a{
+        color: var(--colorGreen);
+    }
+
+}
+
+@media (max-width:768px) {
+
+    /*navLight*/
+
+    .nav {        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        font-size: var(--base);
+
+    }
+
+    .logo {
+        color: var(--colorStone);
+        font-size: var(--epsilon);
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .menu {
+        border-top: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left:0px ;
+        margin-bottom: 0px;
+        }
+
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+        
+
+    }
+
+    .menu li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorStone);
+    }
+
+    /*navGreen*/
+
+    .navGreen {        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        font-size: var(--base);
+
+    }
+
+    .logoGreen {
+        color: var(--colorGreen);
+        font-size: var(--epsilon);
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .logoGreen a{
+        color: var(--colorGreen);
+    }
+
+    .menuGreen {
+        border-top: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        width: 100%;
+    }
+
+    .menuGreen a{
+        color: var(--colorGreen);
+    }
+
+    .menuGreen ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left:0px ;
+        margin-bottom: 0px;
+        }
+
+    .menuGreen li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+        
+
+    }
+
+    .menuGreen li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorGreen);
+    }
+}
