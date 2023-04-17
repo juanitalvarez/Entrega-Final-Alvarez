@@ -14,33 +14,39 @@
         font-size: $base;
         background-color: $colorGreen;
 
-    }
-
-    .logo {
-        color: $colorStone;
-        font-size: $delta;
-        padding-left: 3rem;
-    }
-
-    .menu ul{
-        display: flex;
-        justify-content: flex-end;
+        .logo {
+            color: $colorStone;
+            font-size: $delta;
+            padding-left: 3rem;
         }
 
-    .menu li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        border-left: solid;
-        border-color: $colorGreen;
-        border-width: 0.5px; 
-        height: 100px;
-        padding-right: 50px;
-        padding-left: 50px;
-        letter-spacing: 1px;
+        .menu {
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    border-left: solid;
+                    border-color: $colorStone;
+                    border-width: 0.5px; 
+                    height: 100px;
+                    padding-right: 50px;
+                    padding-left: 50px;
+                    letter-spacing: 1px;
+            
+                }
+            
+            
+            }
+
+        }
 
     }
+
 
     /*nav dark*/
     .navGreen {        
@@ -54,40 +60,48 @@
         border-width: 0.5px; 
         font-size: $base ;
 
+        .logoGreen {
+            color: $colorGreen;
+            font-size: $delta;
+            padding-left: 3rem;
+
+            a {
+                color: $colorGreen;
+            }
+        }
+
+        .menuGreen{
+
+            ul{
+                display: flex;
+                justify-content: flex-end;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    border-left: solid;
+                    border-color: $colorGreen;
+                    border-width: 0.5px; 
+                    height: 100px;
+                    padding-right: 50px;
+                    padding-left: 50px;
+                    letter-spacing: 1px;
+
+                    a{
+                        color: $colorGreen;
+                    }
+                
+                
+                }
+            }
+
+
+        }
+
     }
         
-    .logoGreen {
-        color: $colorGreen;
-        font-size: $delta;
-        padding-left: 3rem;
-    }
-
-    .logoGreen a {
-        color: $colorGreen;
-    }
-
-    .menuGreen ul{
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .menuGreen li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        border-left: solid;
-        border-color: $colorGreen;
-        border-width: 0.5px; 
-        height: 100px;
-        padding-right: 50px;
-        padding-left: 50px;
-        letter-spacing: 1px;
-
-    }
-    .menuGreen a{
-        color: $colorGreen;
-    }
 
 }
 
@@ -106,40 +120,41 @@
         border-width: 0.5px; 
         font-size: $base;
 
-    }
-
-    .logo {
-        color: $colorStone;
-        font-size: $epsilon;
-        padding: 1rem;
-        text-align: center;
-    }
-
-    .menu {
-        border-top: solid;
-        border-color: $colorStone;
-        border-width: 0.5px; 
-        width: 100%;
-    }
-    .menu ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        align-items: center;
-        justify-content: center;
-        padding-left:0px ;
-        margin-bottom: 0px;
+        .logo {
+            color: $colorStone;
+            font-size: $epsilon;
+            padding: 1rem;
+            text-align: center;
         }
 
-    .menu li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 10px 25px;
-        letter-spacing: 1px;
-        
+        .menu {
+            border-top: solid;
+            border-color: $colorStone;
+            border-width: 0.5px; 
+            width: 100%;
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 0px;
+                align-items: center;
+                justify-content: center;
+                padding-left:0px ;
+                margin-bottom: 0px;
+
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        padding: 10px 25px;
+                        letter-spacing: 1px;
+                        
+                
+                    }
+                }
+        }
 
     }
 
@@ -159,51 +174,52 @@
         border-width: 0.5px; 
         font-size: $base;
 
-    }
+        .logoGreen {
+            color: $colorGreen;
+            font-size: $epsilon;
+            padding: 1rem;
+            text-align: center;
 
-    .logoGreen {
-        color: $colorGreen;
-        font-size: $epsilon;
-        padding: 1rem;
-        text-align: center;
-    }
-
-    .logoGreen a{
-        color: $colorGreen;
-    }
-
-    .menuGreen {
-        border-top: solid;
-        border-color: $colorGreen;
-        border-width: 0.5px; 
-        width: 100%;
-    }
-
-    .menuGreen a{
-        color: $colorGreen;
-    }
-
-    .menuGreen ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        align-items: center;
-        justify-content: center;
-        padding-left:0px ;
-        margin-bottom: 0px;
+            a{
+                color: $colorGreen;
+            }
         }
 
-    .menuGreen li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 10px 25px;
-        letter-spacing: 1px;
-        
+        .menuGreen {
+            border-top: solid;
+            border-color: $colorGreen;
+            border-width: 0.5px; 
+            width: 100%;
+
+            a{
+                color: $colorGreen;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 0px;
+                align-items: center;
+                justify-content: center;
+                padding-left:0px ;
+                margin-bottom: 0px;
+
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        padding: 10px 25px;
+                        letter-spacing: 1px;
+                        
+                
+                    }
+                }
+        }
 
     }
+
 
     .menuGreen li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: $colorGreen;
     }

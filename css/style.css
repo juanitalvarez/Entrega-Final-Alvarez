@@ -64,22 +64,22 @@ body {
     font-size: 1.6rem;
     background-color: #00383B;
   }
-  .logo {
+  .nav .logo {
     color: #F2E9EA;
     font-size: 2.5rem;
     padding-left: 3rem;
   }
-  .menu ul {
+  .nav .menu ul {
     display: flex;
     justify-content: flex-end;
   }
-  .menu li {
+  .nav .menu ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     border-left: solid;
-    border-color: #00383B;
+    border-color: #F2E9EA;
     border-width: 0.5px;
     height: 100px;
     padding-right: 50px;
@@ -98,19 +98,19 @@ body {
     border-width: 0.5px;
     font-size: 1.6rem;
   }
-  .logoGreen {
+  .navGreen .logoGreen {
     color: #00383B;
     font-size: 2.5rem;
     padding-left: 3rem;
   }
-  .logoGreen a {
+  .navGreen .logoGreen a {
     color: #00383B;
   }
-  .menuGreen ul {
+  .navGreen .menuGreen ul {
     display: flex;
     justify-content: flex-end;
   }
-  .menuGreen li {
+  .navGreen .menuGreen ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -123,7 +123,7 @@ body {
     padding-left: 50px;
     letter-spacing: 1px;
   }
-  .menuGreen a {
+  .navGreen .menuGreen ul li a {
     color: #00383B;
   }
 }
@@ -140,19 +140,19 @@ body {
     border-width: 0.5px;
     font-size: 1.6rem;
   }
-  .logo {
+  .nav .logo {
     color: #F2E9EA;
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
   }
-  .menu {
+  .nav .menu {
     border-top: solid;
     border-color: #F2E9EA;
     border-width: 0.5px;
     width: 100%;
   }
-  .menu ul {
+  .nav .menu ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@ body {
     padding-left: 0px;
     margin-bottom: 0px;
   }
-  .menu li {
+  .nav .menu ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -187,25 +187,25 @@ body {
     border-width: 0.5px;
     font-size: 1.6rem;
   }
-  .logoGreen {
+  .navGreen .logoGreen {
     color: #00383B;
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
   }
-  .logoGreen a {
+  .navGreen .logoGreen a {
     color: #00383B;
   }
-  .menuGreen {
+  .navGreen .menuGreen {
     border-top: solid;
     border-color: #00383B;
     border-width: 0.5px;
     width: 100%;
   }
-  .menuGreen a {
+  .navGreen .menuGreen a {
     color: #00383B;
   }
-  .menuGreen ul {
+  .navGreen .menuGreen ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -215,7 +215,7 @@ body {
     padding-left: 0px;
     margin-bottom: 0px;
   }
-  .menuGreen li {
+  .navGreen .menuGreen ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
