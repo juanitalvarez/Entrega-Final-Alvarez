@@ -1,0 +1,40 @@
+
+.translateX {
+    transition: all 1s;
+        &:hover{
+            transform: translateX(10px);
+            cursor:pointer,
+
+        }
+
+}
+
+.translateY {
+    transition: all 1s;
+        &:hover{
+            transform: translateY(10px);
+            cursor:pointer,
+
+        }
+
+}
+
+.translateYup {
+    transition: all 1s;
+        &:hover{
+            transform: translateY(-10px);
+            cursor:pointer,
+
+        }
+
+}
+
+.scale1 {
+    transition: all 1s;
+        &:hover{
+            transform: scale(1.1,1.1);
+            cursor:pointer,
+
+        }
+
+}

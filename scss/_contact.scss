@@ -1,0 +1,372 @@
+@media (min-width: 1200px) {
+    .titleContact {
+        font-size: $beta;
+        line-height: 4rem;
+        color: $colorGreen;
+     }
+
+     .myForm {
+        display: block;
+        width: 80%;
+        padding: 0.375rem 0.75rem;
+        font-size: $delta;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $colorGreen;
+        background-color: $colorStone;
+        background-clip: padding-box;
+        border-bottom: 1px solid $colorGreen;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .form-label{
+        font-size: $delta;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+    }
+
+    .form-text{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .form-check{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .btn-primary{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+        background-color: $colorStone;
+        border: solid;
+        text-decoration: none;
+        margin: 20px 0px;
+        cursor: pointer;
+        padding: 15px;
+        width: 150px;
+        border-radius: 100%;
+    }
+    .btn {
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+
+        &:hover {
+            color: $colorStone;
+            background-color: $colorGreen;
+            border-color: $colorGreen;
+        }
+    }
+
+    .form-check-label{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+ 
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+
+    .titleContact {
+        font-size: $beta;
+        line-height: 4rem;
+        color: $colorGreen;
+     }
+
+     .myForm {
+        display: block;
+        width: 80%;
+        padding: 0.375rem 0.75rem;
+        font-size: $delta;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $colorGreen;
+        background-color: $colorStone;
+        background-clip: padding-box;
+        border-bottom: 1px solid $colorGreen;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .form-label{
+        font-size: $delta;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+    }
+
+    .form-text{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .form-check{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .btn-primary{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+        background-color: $colorStone;
+        border: solid;
+        text-decoration: none;
+        margin: 20px 0px;
+        cursor: pointer;
+        padding: 15px;
+        width: 150px;
+        border-radius: 100%;
+    }
+    .btn {
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+
+        &:hover {
+            color: $colorStone;
+            background-color: $colorGreen;
+            border-color: $colorGreen;
+        }
+    }
+
+    .form-check-label{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+ 
+    }
+
+}
+    
+@media (min-width:768px ) and (max-width:991px) {
+
+    .titleContact {
+        font-size: $gama;
+        line-height: 4rem;
+        color: $colorGreen;;
+     }
+     
+     .myForm {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: $delta;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $colorGreen;
+        background-color: $colorStone;
+        background-clip: padding-box;
+        border-bottom: 1px solid $colorGreen;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .form-label{
+        font-size: $delta;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;;
+    }
+
+    .form-text{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .form-check{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .btn-primary{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-size: $delta;
+        color: $colorGreen;;
+        text-align: center;
+        background-color: $colorStone;
+        border: solid;
+        text-decoration: none;
+        margin: 20px 0px;
+        cursor: pointer;
+        padding: 15px;
+        width: 150px;
+        border-radius: 100%;
+    }
+    .btn {
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+        &:hover {
+            color: $colorStone;
+            background-color: $colorGreen;;
+            border-color: $colorGreen;
+        }
+    }
+
+
+    .form-check-label{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+ 
+    }
+
+
+
+}
+    
+@media (max-width:768px) {
+
+    .titleContact {
+        font-size: $gama;
+        line-height: 4rem;
+        color: $colorGreen;;
+     }
+     .myForm {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: $delta;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $colorGreen;
+        background-color: $colorStone;
+        background-clip: padding-box;
+        border-bottom: 1px solid $colorGreen;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .form-label{
+        font-size: $delta;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;;
+    }
+
+    .form-text{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .form-check{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .btn-primary{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-size: $delta;
+        color: $colorGreen;;
+        text-align: center;
+        background-color: $colorStone;
+        border: solid;
+        text-decoration: none;
+        margin: 20px 0px;
+        cursor: pointer;
+        padding: 15px;
+        width: 150px;
+        border-radius: 100%;
+    }
+    .btn {
+        font-size: $delta;
+        color: $colorGreen;
+        text-align: center;
+        &:hover {
+            color: $colorStone;
+            background-color: $colorGreen;;
+            border-color: $colorGreen;
+        }
+    }
+
+
+    .form-check-label{
+        font-size: $epsilon;
+        font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: $colorGreen;
+ 
+    }
+
+
+}

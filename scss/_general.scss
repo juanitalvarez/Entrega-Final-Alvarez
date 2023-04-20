@@ -1,10 +1,14 @@
-.bgGreen {background-color: $colorGreen}
-
-.bgPink{background-color: $colorPink}
-
-.bgStone{background-color: $colorStone}
-
-.bgWhite{background-color: $colorWhite}
+ $backgroundColor:(
+    Green: $colorGreen,
+    Stone: $colorStone,
+    Pink: $colorPink,
+    White: white
+ );
+ @each $bgcolortitle, $color in $backgroundColor{
+    .bg#{$bgcolortitle}{
+        background-color: $color;
+   }
+}
 
 li {list-style-type: none;}
 
@@ -23,6 +27,67 @@ body { margin:0px; }
 
 *{margin-bottom: 0;}
 
-.card, .card-header, .card-body, .card-footer{
-    border-radius:0px !important;
+.paddingTop {
+    padding-top: 0px;
+}
+
+
+
+@for $m from 1 through 5 {
+    .m-#{$m}{
+        margin:1rem * $m;
+    }
+}
+@for $mb from 1 through 5 {
+    .mb-#{$mb}{
+        margin-bottom:1rem * $mb;
+    }
+}
+
+@for $mt from 1 through 5 {
+    .mt-#{$mt}{
+        margin-top:1rem * $mt;
+    }
+}
+
+@for $mr from 1 through 5 {
+    .mr-#{$mr}{
+        margin-right:1rem * $mr;
+    }
+}
+
+@for $ml from 1 through 5 {
+    .ml-#{$ml}{
+        margin-left:1rem * $ml;
+    }
+}
+
+@for $p from 1 through 5 {
+    .p-#{$p}{
+        padding:1rem * $p;
+    }
+}
+
+@for $pb from 1 through 5 {
+    .pb-#{$pb}{
+        padding-bottom:1rem * $pb;
+    }
+}
+
+@for $pt from 1 through 5 {
+    .pt-#{$pt}{
+        padding-top:1rem * $pt;
+    }
+}
+
+@for $pr from 1 through 5 {
+    .pr-#{$pr}{
+        padding-right:1rem * $pr;
+    }
+}
+
+@for $pl from 1 through 5 {
+    .pl-#{$pl}{
+        padding-left:1rem * $pl;
+    }
 }

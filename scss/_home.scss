@@ -1,0 +1,177 @@
+
+
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 1200px) {
+    .hero{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .introText{
+        font-size: $alpha;
+        color: $colorStone;
+        font-weight:300;
+        line-height: 110%;
+
+    }
+
+    .exploreHome {
+        margin-bottom: 2rem;
+       p {
+        a{
+            font-size: $delta;
+        }
+       }
+
+    }
+   
+
+    .ctaIndex{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        h3{
+            a{
+                color: $colorGreen;
+                font-size: $gama;
+                &:hover{
+                    color: $colorGreenLight;
+        
+                }
+
+            }
+
+        }
+       
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .hero{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .introText{
+        font-size: $beta;
+        color: $colorStone;
+        font-weight:300;
+        line-height: 110%;
+        margin: 3rem;
+    }
+
+    .exploreHome {
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+       p {
+        a{
+            font-size: $delta;
+        }
+       }
+
+    }
+
+    .ctaIndex{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        h3{
+            a{
+                color: $colorGreen;
+                font-size: $gama;
+                &:hover{
+                    color: $colorGreenLight;
+        
+                }
+
+            }
+
+        }
+       
+    }
+ 
+    }
+    
+@media (min-width:768px ) and (max-width:991px) {
+    .hero{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .introText{
+        font-size: $beta;
+        color: $colorStone;
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+
+    .exploreHome {
+        margin: 1rem;
+        a{
+            font-size: $delta;
+        }
+    }
+
+    .ctaIndex{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        a{
+            color: $colorGreen;
+            font-size: $delta;
+        }
+    }
+
+    }
+    
+@media (max-width:768px) {
+
+    .hero{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .introText{
+        font-size: $gama;
+        color: $colorStone;
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+
+    .exploreHome {
+        margin: 1rem;
+        a{
+            font-size: $delta;
+        }
+    }
+
+    .ctaIndex{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        a{
+            color: $colorGreen;
+            font-size: $delta;
+        }
+    }
+
+}

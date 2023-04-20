@@ -1,0 +1,294 @@
+.card, .card-header, .card-body, .card-footer{
+    border-radius:0px !important;
+}
+
+/*home*/
+
+
+.titleCard{
+    font-size: $base;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+
+    border: solid 0.5px;
+    border-color: $colorStone;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+}
+
+
+@media (min-width: 1200px) {
+
+    //home
+
+    .card-text-display {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        height: 8rem;
+        border-bottom: solid 0.5px;
+        border-color: $colorStone;
+    
+    }
+
+    //work
+
+    .workContent{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        display: flex;
+    }
+
+    .workContentSmall{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .cardContentWork {
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: $colorGreen;
+        width: 45%;
+        display: flex;
+        margin-bottom: 5rem;
+
+    }
+
+    .imgWork {
+        width: 100%; height: auto;
+    }
+
+
+
+    .titleCardWork {
+        a{
+            color: $colorGreen;
+            font-size: $base;
+            display: flex;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            &:hover{
+                color: $colorGreenLight;
+                
+            }
+        }
+    }
+
+    .card-text-display-work {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3rem;
+        border-bottom: solid 0.5px;
+        border-color: $colorGreen;
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+        .card-text-display {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem;
+            height: 8rem;
+            border-bottom: solid 0.5px;
+            border-color: $colorStone;
+        
+        }
+
+        //work
+
+        .workContent{
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            display: flex;
+        }
+
+        .cardContentWork {
+            flex-direction: column;
+            flex-wrap: wrap;
+            color: $colorGreen;
+            width: 45%;
+            display: flex;
+            margin-bottom: 4rem;
+
+        }
+
+        .imgWork {
+            width: 100%; height: auto;
+        }
+
+        .titleCardWork {
+            a{
+                color: $colorGreen;
+                font-size: $base;
+                display: flex;
+                flex-wrap: wrap;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                
+                &:hover{
+                    color: $colorGreenLight;
+                    
+                }
+            }
+        }
+
+        .card-text-display-work {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 3rem;
+            border-bottom: solid 0.5px;
+            border-color: $colorGreen;
+            margin-top: 1rem;
+        }
+ 
+    }
+    
+@media (min-width:768px ) and (max-width:991px) {
+        .card-text-display {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem;
+            height: 8rem;
+            border-bottom: solid 0.5px;
+            border-color: $colorStone;
+            flex-direction: column;
+            height: 140px;
+        }
+
+        //work
+        .workContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem; 
+    
+        }
+
+        .cardContentWork {
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            color: $colorGreen;
+            margin-bottom: 3rem;
+
+        }
+
+        .imgWork {
+            width: 100%; height: auto;
+        }    
+
+        .titleCardWork {
+            a{
+                color: $colorGreen;
+                font-size: $smallprint;
+                display: flex;
+                flex-wrap: wrap;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+
+                &:hover{
+                    color: $colorGreenLight;                
+                }
+                
+            }
+        } 
+
+        .card-text-display-work {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 3rem;
+            border-bottom: solid 0.5px;
+            border-color: $colorGreen;
+            margin-top: 1rem;
+        }
+
+    }
+    
+@media (max-width:768px) {
+    
+    //home
+    .card-text-display {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        height: 8rem;
+        border-bottom: solid 0.5px;
+        border-color: $colorStone;
+        flex-direction: column;
+        height: 140px;
+    }
+
+    //work
+    .workContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+       
+
+    }
+
+    .cardContentWork {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        color: $colorGreen;
+        margin-bottom: 2rem;
+
+    }
+
+    .imgWork {
+        width: 100%; height: auto;
+    }
+  
+
+    .titleCardWork {
+        a{
+            color: $colorGreen;
+            font-size: $smallprint;
+            display: flex;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+            &:hover{
+                color: $colorGreenLight;                
+            }
+            
+        }
+    } 
+
+    .card-text-display-work {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3rem;
+        border-bottom: solid 0.5px;
+        border-color: $colorGreen;
+        margin-top: 1rem;
+    }
+
+}

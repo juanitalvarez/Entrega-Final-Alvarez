@@ -1,0 +1,81 @@
+.social {
+    a{
+        margin-right: 10px;
+    }
+}
+
+.boxFooter {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2rem;
+    width: 100%;
+}
+
+
+.homeContact {
+    h4{
+        font-size: $epsilon;
+        color: $colorStone;
+    }
+}
+
+
+.homeContact {
+    a {
+        color: $colorPink;
+    }
+}
+
+.footerAlign{
+    align-items: center;
+    justify-content: space-between
+}
+
+
+
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 1200px) {
+    .footerText {
+        margin-left: 3rem;
+        h3{
+            font-size: $alpha;
+            color: $colorStone;
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .footerText {
+        h3{
+            font-size: $beta;
+            color: $colorStone;
+        }
+    }
+ 
+}
+    
+@media (min-width:768px ) and (max-width:991px) {
+    .footerText {
+        h3{
+            font-size: $gama;
+            color: $colorStone;
+        }
+
+    } 
+
+}
+    
+@media (max-width:768px) {
+        .footerText {
+
+            h3{
+                font-size: $gama;
+                color: $colorStone;
+            }
+
+        } 
+    }

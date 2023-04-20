@@ -1,0 +1,77 @@
+@media (min-width: 1200px) {
+
+    .introTextAbout {
+        font-size: $gama;
+        line-height: 6rem;
+        color: $colorGreen;
+
+    }
+
+    .txtAbout {
+        font-size: $delta;
+        line-height: 4rem;
+        color: $colorGreen;
+    }
+
+
+    .alignContentEnd {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+
+    .introTextAbout {
+        font-size: $gama;
+        line-height: 6rem;
+        color: $colorGreen;
+
+    }
+
+    .txtAbout {
+        font-size: $delta;
+        line-height: 4rem;
+        color: $colorGreen;
+    }
+
+
+    .alignContentEnd {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+    
+@media (min-width:768px ) and (max-width:991px) {
+
+    .introTextAbout {
+        font-size: $delta;
+        line-height: 4rem;
+        color: $colorGreen;
+
+    }
+
+    .txtAbout {
+        font-size: $epsilon;
+        line-height: 3rem;
+        color: $colorGreen;
+    }
+
+}
+    
+@media (max-width:768px) {
+    .introTextAbout {
+        font-size: $delta;
+        line-height: 4rem;
+        color: $colorGreen;
+
+    }
+
+    .txtAbout {
+        font-size: $epsilon;
+        line-height: 3rem;
+        color: $colorGreen;
+    }
+}
