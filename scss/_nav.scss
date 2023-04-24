@@ -16,8 +16,12 @@
 
     .logo {
         color: $colorStone;
-        font-size: $delta;
+        font-size: 2.5rem;
         padding-left: 3rem;
+
+        a {
+            font-size: 2.5rem;
+        }
     }
 
     .menu {
@@ -62,11 +66,12 @@
 
     .logoGreen {
         color: $colorGreen;
-        font-size: $delta;
         padding-left: 3rem;
+        font-size: 2.5rem;
 
         a {
             color: $colorGreen;
+            font-size: 2.5rem;
         }
     }
 
