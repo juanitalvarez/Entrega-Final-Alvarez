@@ -1112,6 +1112,9 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .contentContact {
+    width: 70%;
+  }
   .titleContact {
     font-size: 7rem;
     line-height: 4rem;
@@ -1194,6 +1197,9 @@ body {
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+  .contentContact {
+    width: 70%;
+  }
   .titleContact {
     font-size: 7rem;
     line-height: 4rem;
@@ -1276,6 +1282,9 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .contentContact {
+    width: 100%;
+  }
   .titleContact {
     font-size: 5rem;
     line-height: 4rem;
@@ -1358,6 +1367,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .contentContact {
+    width: 100%;
+  }
   .titleContact {
     font-size: 5rem;
     line-height: 4rem;
