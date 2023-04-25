@@ -1453,13 +1453,13 @@ body {
 }
 @media (min-width: 1200px) {
   .introTextAbout {
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
     color: #00383B;
   }
   .txtAbout {
-    font-size: 2.5rem;
-    line-height: 4.5rem;
+    font-size: 2rem;
+    line-height: 4rem;
     color: #00383B;
   }
   .alignContentEnd {
