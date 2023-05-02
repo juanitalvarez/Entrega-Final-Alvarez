@@ -877,7 +877,7 @@ body {
   }
   .ctaIndex h3 a {
     color: #00383B;
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
   .ctaIndex h3 a:hover {
     color: #02666b;
@@ -1459,8 +1459,11 @@ body {
   }
   .txtAbout {
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: 3rem;
     color: #00383B;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    text-align: justify;
   }
   .alignContentEnd {
     display: flex;
@@ -1469,14 +1472,17 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .introTextAbout {
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
     color: #00383B;
   }
   .txtAbout {
-    font-size: 3.5rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
     color: #00383B;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-top: 3rem;
   }
   .alignContentEnd {
     display: flex;
@@ -1486,13 +1492,16 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   .introTextAbout {
     font-size: 3.5rem;
-    line-height: 4rem;
+    line-height: 5rem;
     color: #00383B;
   }
   .txtAbout {
     font-size: 2rem;
     line-height: 3rem;
     color: #00383B;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 @media (max-width: 768px) {
@@ -1505,6 +1514,7 @@ body {
     font-size: 2rem;
     line-height: 3rem;
     color: #00383B;
+    text-align: justify;
   }
 }
 @media (min-width: 1200px) {
