@@ -1452,7 +1452,7 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  .introTextAbout {
+  .introTextAbout h1 {
     font-size: 3.5rem;
     line-height: 5rem;
     color: #00383B;
@@ -1471,7 +1471,7 @@ body {
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  .introTextAbout {
+  .introTextAbout h1 {
     font-size: 3.5rem;
     line-height: 5rem;
     color: #00383B;
@@ -1490,7 +1490,7 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .introTextAbout {
+  .introTextAbout h1 {
     font-size: 3.5rem;
     line-height: 5rem;
     color: #00383B;
@@ -1505,7 +1505,7 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .introTextAbout {
+  .introTextAbout h1 {
     font-size: 3.5rem;
     line-height: 4rem;
     color: #00383B;
